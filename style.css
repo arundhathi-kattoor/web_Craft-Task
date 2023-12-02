@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.whole {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic {
+    height: 450px;
+    width: 100%;
+    margin: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://img.freepik.com/premium-photo/business-woman-face-photo-ai-generated_980993-2959.jpg);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+    margin-top: 20px; /* Adjust margin as needed */
+    color: #ffffff;
+    text-align: center;
+}
+
+.g2 {
+    color: #687b68;
+    font-size: 1.6rem;
+}
+
+.g1 {
+    line-height: 80px;
+    font-size: 5rem;
+}
+
+#g3 {
+    color: #687b68;
+    padding-bottom: 20px; /* Adjust padding as needed */
+}
+
+.para {
+    color: white;
+    font-size: small;
+    padding-bottom: 20px; /* Adjust padding as needed */
+}
+
+.but {
+    background-color: transparent;
+    width: 120px;
+    height: 38px;
+    color: #687b68;
+    border: 2px solid #687b68;
+    transition: ease-in 0.5s;
+    font-weight: lighter;
+}
+
+.but:hover {
+    color: #000000;
+    background-color: #687b68;
+}
+
+@media only screen and (min-width: 600px) {
+    .whole {
+        flex-direction: row;
+    }
+
+    .pic {
+        width: 300px;
+        height: 450px;
+        margin: 100px 20px 0 20px;
+    }
+
+    .text {
+        margin-left: 60;
+        margin-top: 0;
+        text-align: left;
+    }
+}
